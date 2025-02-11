@@ -48,14 +48,14 @@ const App = () => {
   }, [deboundedTerm])
 
   return (
-    <main className='background h-screen overflow-y-auto w-full text-white px-5 md:px-20 py-10 flex flex-col items-center '>
+    <main className='background bg-slate-950 h-screen overflow-y-auto w-full text-white px-5 md:px-20 py-10 flex flex-col items-center '>
 
       {/* Hero Image */}
       <img className='cursor-pointer' src="hero.png" alt="error while rendering hero image" />
 
       {/* Hero Heading */}
       <h1 className='w-[80%] md:w-[50%] text-5xl font-bold text-white mb-10 text-center'>
-        Find <span className='text-gradient'>Movies</span> You’ll Love Without the Hassle
+        Find <span className='text-gradient'>Movies</span> You’ll Love Without the Hassle <br /> <span className='text-gradient'>Phamba</span>
       </h1>
 
       {/* Search Feature */}

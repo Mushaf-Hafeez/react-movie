@@ -3,7 +3,7 @@ import React from 'react'
 const MovieCard = ({movie: {title, poster_path, vote_average, release_date, original_language}}) => {
 
   return (
-    <div className='p-5 shadow-inner shadow-dark-100 rounded-lg cursor-pointer'>
+    <div className='p-5 shadow-inner shadow-dark-100 rounded-lg cursor-pointer hover:bg-slate-900 transition-all ease-in duration-100'>
         <img src={poster_path ? `https://image.tmdb.org/t/p/w500/${poster_path}` : 'no-poster.png'} alt="" />
         <h1 className='text-left my-2 font-semibold'>
             {

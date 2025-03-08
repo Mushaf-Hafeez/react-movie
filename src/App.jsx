@@ -51,6 +51,7 @@ const App = () => {
   }, [deboundedTerm])
 
   return (
+    // main section
     <main className='background bg-slate-950 h-screen overflow-y-auto w-full text-white px-5 md:px-20 py-10 flex flex-col items-center '>
 
       {/* Hero Image */}

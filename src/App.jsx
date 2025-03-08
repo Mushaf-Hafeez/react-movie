@@ -14,6 +14,7 @@ const App = () => {
 
   useDebounce(() => setDebouncedTerm(searchTerm), 500, [searchTerm])
 
+  // function to fetch all the movies
   const fetchMovies = async (query = '') => {
 
     setIsLoading(true)

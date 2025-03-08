@@ -42,6 +42,8 @@ const App = () => {
     }
   }
 
+  console.log('movies data: ', movies)
+
 
   useEffect(() => {
     fetchMovies(deboundedTerm)
